@@ -131,7 +131,6 @@ class PhotoDetailViewController: UIViewController, UIImagePickerControllerDelega
         }
         
         title = photo.title
-        
         imageView.image = UIImage(data: photo.imageData)
         titleTextField.text = photo.title
     }
